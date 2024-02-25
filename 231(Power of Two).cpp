@@ -7,7 +7,7 @@ bool isPower(int n){
     if(n == 1){
         return true;
     }
-
+    
     for(int i = 0; i<=30; i++){
 
         int temp = pow(2,i);
